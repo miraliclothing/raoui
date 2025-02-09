@@ -1174,11 +1174,11 @@ input, select, textarea {
 			-moz-filter: blur(0.2rem);
 			-webkit-filter: blur(0.2rem);
 			-ms-filter: blur(0.2rem);
-			filter: blur(0.2rem);
+			;
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+		
 		}
 
 /* Wrapper */
@@ -1258,7 +1258,7 @@ input, select, textarea {
 		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		background-image: none;
 		max-width: 100%;
 		text-align: center;
 		 background-size: cover; 
@@ -1401,7 +1401,7 @@ input, select, textarea {
 			-moz-filter: blur(0.1rem);
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
+		
 			opacity: 0;
 		}
 
@@ -1409,7 +1409,7 @@ input, select, textarea {
 			-moz-filter: blur(0.125rem);
 			-webkit-filter: blur(0.125rem);
 			-ms-filter: blur(0.125rem);
-			filter: blur(0.125rem);
+			
 		}
 
 			body.is-preload #header > * {
