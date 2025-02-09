@@ -438,7 +438,7 @@ input, select, textarea {
 		height: 2.75rem;
 		padding-right: 2.75rem;
 		text-overflow: ellipsis;
-		 background-size: cover; 
+		
 	}
 
 		select option {
