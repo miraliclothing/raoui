@@ -1296,7 +1296,7 @@ input, select, textarea {
 			width: auto;
 			height: auto;
 			line-height: normal;
-			border: solid 1px #000000;
+			border: none !important; ;
 			border-radius: 0 !important; ;
 		}
 
